@@ -1,0 +1,18 @@
+# Arrowstack AI Internship - Task 1 dependencies
+# Tested on Python 3.10 and 3.11
+
+# Core computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Hand gesture recognition (optional but recommended)
+# Falls back gracefully if not installed - face detection still works.
+# Pinned to 0.10.x because mediapipe 1.x removed the legacy
+# mp.solutions.hands API that this project uses.
+mediapipe>=0.10.0,<0.11
+
+# Utility / packaging
+ Pillow>=10.0.0
+
+# Testing
+pytest>=7.4.0
